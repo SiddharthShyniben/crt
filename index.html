@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RayTracer</title>
+	<style>
+		body, html {
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			background-color: #000;
+		}
+
+		canvas {
+			/* center the canvas */
+			position: absolute;
+			top: 50%;
+			left: 50%;
+
+			/* move the canvas back to the center */
+			transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<canvas></canvas>
+	<script src='vector.js'></script>
+	<script src='canvas.js'></script>
+	<script src='shape.js'></script>
+	<script src='raytracer.js'></script>
+</body>
+</html>
